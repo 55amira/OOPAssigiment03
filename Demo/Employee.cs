@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,6 +7,18 @@ using System.Threading.Tasks;
 
 namespace Demo
 {
+    class EmpioyeeComparerSalary : IComparer
+    {
+        public int Compare(object? x, object? y)
+        {
+            Employee X = (Employee)x;
+            Employee Y = (Employee)y;
+            if (X.salary > Y.salary) return 1;
+            else if (Y.salary>X.salary) return -1;
+            return 0;
+            
+        }
+    }
     internal class Employee : IComparable
     {
         public int id { get; set; }
