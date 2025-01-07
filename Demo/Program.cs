@@ -131,6 +131,29 @@ namespace Demo
             //Console.WriteLine(E01);
             //Console.WriteLine(E02); 
             #endregion
+
+            #region built-in-interface ICompareable
+
+            //Employee[] employee = new Employee[3] 
+            //{
+            //     new Employee() { id = 1, name = "Ahmed", age = 20, salary = 12000 },
+            //     new Employee() { id = 2, name = "Ali", age = 22, salary = 15000 },
+            //     new Employee() { id = 3, name = "Mohamed", age = 19, salary = 11000 }
+            //};
+
+            // //int x= employee[0].CompareTo(employee[1]);
+            // // Console.WriteLine(x);
+
+            //Array.Sort(employee);
+
+            //foreach (Employee emp in employee)
+            //{
+            //    Console.WriteLine(emp);
+            //} 
+            #endregion
+
+
+
         }
     }
 }
