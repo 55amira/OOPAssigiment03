@@ -1,5 +1,6 @@
 ﻿using Demo.interfaceEx01;
 using Demo.interfaceEx02;
+using Demo.interfaceEx03;
 
 namespace Demo
 {
@@ -74,6 +75,20 @@ namespace Demo
             //SeriesByFour seriesByFour = new SeriesByFour();
             //Print10Number(seriesByFour);
 
+            #endregion
+
+            #region interfaceEx03
+            /////Car car = new Car();
+            /////car.Spead = 120;
+            /////car.Forword();
+
+
+            // Airplan airplan = new Airplan();
+            // IFlyable flyable = airplan;
+            // flyable.Backword();
+
+            // IMoveable moveable = airplan;
+            // moveable.Backword(); 
             #endregion
         }
     }
