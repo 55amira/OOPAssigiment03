@@ -90,6 +90,32 @@ namespace Demo
             // IMoveable moveable = airplan;
             // moveable.Backword(); 
             #endregion
+
+            #region Shallow Copy And Deep Copy
+            ////int[] Arr01 = { 1, 2, 3 };
+            ////int[] Arr02 = { 4, 5, 6 };
+
+            ////Console.WriteLine(Arr01.GetHashCode());
+            ////Console.WriteLine(Arr02.GetHashCode());
+
+            ////Console.WriteLine();
+
+            ////Arr02 = Arr01;//Shallow Copy
+            ////Console.WriteLine(Arr01.GetHashCode());
+            ////Console.WriteLine(Arr02.GetHashCode());
+
+            //int[] Arr01 = { 1, 2, 3 };
+            //int[] Arr02 = { 4, 5, 6 };
+
+            //Console.WriteLine(Arr01.GetHashCode());
+            //Console.WriteLine(Arr02.GetHashCode());
+
+            //Console.WriteLine();
+
+            //Arr02 =(int[]) Arr01.Clone();//Deep Copy
+            //Console.WriteLine(Arr01.GetHashCode());
+            //Console.WriteLine(Arr02.GetHashCode()); 
+            #endregion
         }
     }
 }
