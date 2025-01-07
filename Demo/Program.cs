@@ -116,6 +116,21 @@ namespace Demo
             //Console.WriteLine(Arr01.GetHashCode());
             //Console.WriteLine(Arr02.GetHashCode()); 
             #endregion
+
+            #region built-in-interface IClonable
+            //Employee E01 = new Employee() { id = 1, name = "Ahmed", age = 20, salary = 12000 };
+
+            //Employee E02 = new Employee() { id = 2, name = "Ali", age = 22, salary = 15000 };
+
+            ////E02=E01;
+            //E02 =(Employee) E01.Clone();
+
+            //Console.WriteLine(E01.GetHashCode());
+            //Console.WriteLine(E02.GetHashCode());
+
+            //Console.WriteLine(E01);
+            //Console.WriteLine(E02); 
+            #endregion
         }
     }
 }
